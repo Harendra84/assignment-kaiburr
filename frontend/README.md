@@ -1,70 +1,146 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Kaiburr Assignment
 
-## Available Scripts
+## Task 1. Java REST API example
+Implementd an application in java which provides a REST API with endpoints for searching,
+creating and deleting “server” objects:
 
-In the project directory, you can run:
+##### ● GET servers. Should return all the servers if no parameters are passed. When server id
+is passed as a parameter - return a single server or 404 if there’s no such a server.
 
-### `npm start`
+![Get All Server](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/get-all-data.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![404 Error server](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/404.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### ● PUT a server. The server object is passed as a json-encoded message body. Here’s an
+example:
 
-### `npm test`
+![Update Server](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/put-data.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+● DELETE a server. The parameter is a server ID.
 
-### `npm run build`
+![Delete Server](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/delete-data.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### ● GET (find) servers by name. The parameter is a string. Must check if a server name
+contains this string and return one or more servers found. Return 404 if nothing is found.
+“Server” objects should be stored in MongoDB database.
+Be sure that you can show how your application responds to requests using postman, curl or
+any other HTTP client.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Get server by name](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/data-by-name.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+##### ● Create new Server:
 
-### `npm run eject`
+![Post Server](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/backend/post-data.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Task 2. Swagger codegen.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Swagger Home](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/swagger-home-page.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Swagger ](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/list-all-api.png)
 
-## Learn More
+![Swagger ](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/get-all.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Swagger ](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/get-by-id.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Swagger ](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/get-by-name.png)
 
-### Code Splitting
+![Swagger](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/post-data.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Swagger ](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/put-data.png)
 
-### Analyzing the Bundle Size
+![Swagger](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/swagger/delete-data.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Task 3. Kubernetes
 
-### Making a Progressive Web App
+### Kubernet Project Stracture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/project-dir.png)
 
-### Advanced Configuration
+### Docker File
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/Dockerfile.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Build Project on Docker
 
-### Deployment
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/kubernet/project-dir.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/docker-build.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Dockerhub
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/docker-hub.png)
+
+### Dockerhub
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/kubernet/doker-hub.png)
+
+## Task 4. WEB UI Forms.
+
+### Home Page
+
+![Home](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/frontend/home.png)
+
+### Create Server Page
+
+![Create](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/frontend/create.png)
+
+### Update Server Page
+
+![Update](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/frontend/update.png)
+
+### View Server Page
+
+![View](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/frontend/view.png)
+
+
+## Task 5. CI-CD Pipeline
+
+#### Project Stracture
+
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/cicdpiline-project-dir.png)
+
+#### Docker File
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/Dokerfile.png)
+
+#### Github Repo
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/repo.png)
+
+#### Maven.yml file
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/maven.yml.png)
+
+#### Building
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/build-cicdpipeline.png)
+
+#### Build Success
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/success.png)
+
+#### Docker Build
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/docker-build.png)
+
+#### Docker Success
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/docker-succes.png)
+
+#### Deployed on Dockerhub
+
+![](https://raw.githubusercontent.com/Harendra84/assignment-kaiburr/main/screenshots/cicdpipeline/docker-hubs.png)
+
+
+
+## Authors
+
+- [@Harendra84](https://github.com/Harendra84)
+
+
+## Demo
+
+### https://hub.docker.com/repositories
+
