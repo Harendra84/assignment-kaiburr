@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Thu Nov 03 22:16:44 IST 2022
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\haren\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper-el\\9.0.68\\tomcat-jasper-el-9.0.68.jar=WEB-INF/lib/tomcat-jasper-el-9.0.68.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\haren\\.m2\\repository\\org\\springframework\\spring-web\\5.3.23\\spring-web-5.3.23.jar=WEB-INF/lib/spring-web-5.3.23.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\haren\\.m2\\repository\\org\\springframework\\spring-web\\5.3.13\\spring-web-5.3.13.jar=WEB-INF/lib/spring-web-5.3.13.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\haren\\.m2\\repository\\org\\apache\\tomcat\\tomcat-jasper\\9.0.68\\tomcat-jasper-9.0.68.jar=WEB-INF/lib/tomcat-jasper-9.0.68.jar

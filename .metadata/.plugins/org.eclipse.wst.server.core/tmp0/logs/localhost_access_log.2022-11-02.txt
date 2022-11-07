@@ -1,0 +1,10 @@
+127.0.0.1 - - [02/Nov/2022:06:26:42 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:26:43 +0530] "GET /Backend/WEB-INF/classes/com/rest/BackendApplication.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:26:43 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:27:19 +0530] "GET /Backend/swagger-ui.html HTTP/1.1" 404 275
+127.0.0.1 - - [02/Nov/2022:06:40:27 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:40:27 +0530] "GET /Backend/WEB-INF/classes/com/rest/BackendApplication.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:40:47 +0530] "GET /Backend/swagger-ui/index.html HTTP/1.1" 404 275
+127.0.0.1 - - [02/Nov/2022:06:44:39 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:44:40 +0530] "GET /Backend/WEB-INF/classes/com/rest/BackendApplication.java HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [02/Nov/2022:06:45:26 +0530] "GET /Backend/actor/api/all HTTP/1.1" 200 161

@@ -1,0 +1,3 @@
+FROM openjdk:17
+ADD target/ app.jar
+ENTRYPOINT ['java', '-jar', "/app.jar"]

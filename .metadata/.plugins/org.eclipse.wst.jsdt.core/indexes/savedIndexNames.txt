@@ -1,0 +1,1 @@
+INDEX VERSION 1.4+D:\CUTM\Programming Languages\Project\Kaiburr\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

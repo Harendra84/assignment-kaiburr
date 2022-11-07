@@ -1,0 +1,14 @@
+version: "3"
+services:
+  javatechiemongodb:
+    image: mongo:latest
+    container_name: "harendramongodb"
+    ports:
+      - 27017:27017
+  springboot-mongodb:
+    image: springboot:1.0
+    container_name: springboot
+    ports:
+      - 8080:8080
+    links:
+      - harendramongodb

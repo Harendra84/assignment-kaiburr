@@ -1,0 +1,27 @@
+.table__head {
+    color: #FFF;
+    font-weight: 700;
+    background-color: #3e406d;
+    background: -moz-linear-gradient(-45deg, #3e406d 0%, #3e406d 100%);
+    background: -webkit-linear-gradient(-45deg, #3e406d 0%, #3e406d 100%);
+    background: linear-gradient(135deg, #3c3e60 0%, #707297 100%);
+    white-space: nowrap;
+  
+  }
+  
+  .table-bordered td,
+  .table-bordered th {
+    border: 0px solid #FFF;
+  
+  }
+
+.winner__table {
+    white-space: nowrap;
+  }
+  
+  @media screen and (max-width: 567px) {
+  
+    .winner__table {
+      font-size: 12px;
+    }
+  }

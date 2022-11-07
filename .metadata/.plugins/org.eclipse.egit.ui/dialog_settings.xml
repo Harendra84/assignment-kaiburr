@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="EGit.KnownHosts">
+		<item value="bitbucket.org"/>
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/Harendra84/cicdpipline.git"/>
+		<item value="https://github.com/Harendra84/cicdpipeline.git"/>
+		<item value="https://github.com/shameed1910/springboot-k8s-mongo/blob/master/springboot-k8s-mongo/src/main/resources/deployment.yml"/>
+		<item value="https://github.com/Harendra84/ci-cd-pipeline.git"/>
+		<item value="https://github.com/Harendra84/demojava.git"/>
+		<item value="https://github.com/Harendra84/ci-cd-github-action.git"/>
+	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="Harendra@84 &lt;harendrakumar843334@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Harendra@84 &lt;harendrakumar843334@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="458"/>
+		<item key="DIALOG_Y_ORIGIN" value="211"/>
+		<item key="DIALOG_WIDTH" value="1022"/>
+		<item key="DIALOG_HEIGHT" value="462"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="FetchGerritChangePage">
+		<item key="[RepositoryHandle:Repository[D:\CUTM\Programming Languages\Project\Kaiburr\CI-CD-Pipeline\.git]].lastUri.github" value="https://github.com/Harendra84/ci-cd-pipeline.git"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="D:\CUTM\Programming Languages\Project\Kaiburr\CI-CD-Pipeline\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\haren\git\ci-cd-github-action\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\haren\git\ci-cd-pipeline\.git">
+			<item value="empty"/>
+		</list>
+		<list key="D:\CUTM\Programming Languages\Project\Kaiburr\CICDPipeline\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.push.PushResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="199"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="481"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<list key="sashWeights">
+			<item value="600"/>
+			<item value="400"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="619"/>
+		<item key="DIALOG_Y_ORIGIN" value="189"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="495"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
